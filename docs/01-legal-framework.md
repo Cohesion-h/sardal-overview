@@ -1,6 +1,7 @@
 # Legal Framework & Corporate Structure
 
-**Version:** 1.0 | **Last Updated:** 2026-05-14 | **Status:** Comprehensive Implementation Guide
+**Version:** 1.0-REVISED | **Last Updated:** 2026-05-14 | **Status:** Comprehensive Implementation Guide
+**Infrastructure Policy:** Government-recommended platforms prioritized; commercial solutions secondary
 
 ---
 
@@ -13,6 +14,7 @@ Cohesion Holding represents a **strategic multi-tier holding company structure**
 3. **Facilitate phased investment** and regional expansion
 4. **Optimize tax and regulatory compliance** across jurisdictions
 5. **Protect cognitive sovereignty** by keeping core technology under Arab-Islamic governance
+6. **Align infrastructure** with government strategic recommendations and national digital sovereignty
 
 This document outlines the legal framework, governance model, and compliance requirements.
 
@@ -173,6 +175,30 @@ All subsidiaries pay licensing fees to parent, operate independently with local 
 
 ---
 
+#### **6. STRATEGIC ADDITION: Sovereign Infrastructure Alignment**
+
+**Core Principle:** Infrastructure decisions prioritize **government recommendations and national digital sovereignty** over commercial cloud providers.
+
+**Rationale:**
+- Sardal is fundamentally about Arab-Islamic cognitive sovereignty
+- Infrastructure choices must align with this mission
+- Government-recommended platforms provide regulatory alignment + strategic credibility
+- Data and system architecture remain under Arab governance
+
+**Implementation:**
+- Primary: Seek official recommendations from Kuwait government IT bodies (ICTC, CITRA, CBK)
+- Secondary: Regional Arab digital infrastructure providers
+- Tertiary: Only select commercial solutions if government explicitly recommends or approves
+- Never default to US/Western cloud providers without government sign-off
+
+**Advantages:**
+- Demonstrates commitment to sovereignty to government clients
+- Builds goodwill with regulatory bodies and decision-makers
+- Reduces risk of export control restrictions (e.g., US sanctions on AI systems)
+- Aligns with Kuwait Vision 2035 digital sovereignty objectives
+
+---
+
 ### 1.2 Why "Cohesion"?
 
 The name reflects the core principle operating at three levels:
@@ -190,8 +216,9 @@ The name reflects the core principle operating at three levels:
    - Parent + subsidiaries operate in cohesive alignment
    - IP ownership (parent) ↔ Operations (subsidiaries)
    - Financial flows bind entities; governance preserves unity
+   - Infrastructure choices align with sovereign governance principles
 
-**Philosophy:** Cohesion is not a name invented for marketing; it is the structural principle encoded in the system's mathematics, applied to company organization.
+**Philosophy:** Cohesion is not a name invented for marketing; it is the structural principle encoded in the system's mathematics, applied to company organization and national sovereignty.
 
 ---
 
@@ -258,6 +285,7 @@ The name reflects the core principle operating at three levels:
 │            • Owns all IP: patents, trademarks, source code          │
 │            • Issues sublicenses to subsidiaries                     │
 │            • Receives licensing fees from subsidiaries + partners   │
+│            • Sets sovereign infrastructure policy                   │
 │                                                                       │
 └─────────────────────────────────────────────────────────────────────┘
               │
@@ -275,21 +303,29 @@ The name reflects the core principle operating at three levels:
     │ • Support       │ │   research  │ │   deployment    │ │   investing     │
     │ • v0.5→v1.0     │ │ • T-Web     │ │ • Partnership   │ │ • Exits         │
     │                 │ │ • Gala      │ │ • Licensing     │ │                 │
-    │ Revenue:        │ │ • Vibroscape│ │                 │ │ Revenue:        │
-    │ • Gov't: 200 KWD│ │             │ │ Revenue:        │ │ • Dividends     │
-    │ • Enterprise: 50│ │ Revenue:    │ │ • Licensing fees│ │ • Capital gains │
-    │ • Services: 100 │ │ • Grants    │ │   (10-15%)      │ │                 │
-    │ • Total: 350+   │ │ • Partnerships│ │ • Local service │ │ Target: 3-5     │
-    │                 │ │ • Total: 150+  │ │   revenue      │ │ startups        │
-    │ Costs:          │ │                 │ │                 │ │                 │
-    │ • Personnel: 73 │ │ Costs:         │ │ Costs:         │ │ Capital: 60-250 │
-    │ • Infrastructure│ │ • Personnel: 27 │ │ • Local team   │ │ KWD deployed    │
-    │ • Tools: 20     │ │ • Compute: 7    │ │ • Infrastructure│ │                 │
-    │ • Total: 90+    │ │ • Total: 35+    │ │ • Total: TBD   │ │ Investment term:│
-    │                 │ │                 │ │                 │ │ 5-10 years      │
+    │ Infrastructure: │ │ • Vibroscape│ │                 │ │ Revenue:        │
+    │ • Aligned with  │ │             │ │ Revenue:        │ │ • Dividends     │
+    │   gov't         │ │ Revenue:    │ │ • Licensing fees│ │ • Capital gains │
+    │   recommendations│ │ • Grants    │ │   (10-15%)      │ │                 │
+    │ • Regional      │ │ • Partnerships│ │ • Local service │ │ Target: 3-5     │
+    │   sovereignty   │ │ • Total: 150+  │ │   revenue      │ │ startups        │
+    │                 │ │                 │ │                 │ │                 │
+    │ Revenue:        │ │ Costs:         │ │ Costs:         │ │ Capital: 60-250 │
+    │ • Gov't: 200 KWD│ │ • Personnel: 27 │ │ • Local team   │ │ KWD deployed    │
+    │ • Enterprise: 50│ │ • Infrastructure│ │ • Infrastructure│ │                 │
+    │ • Services: 100 │ │   (Aligned) │ │   (Aligned)    │ │ Investment term:│
+    │ • Total: 350+   │ │ • Total: 35+    │ │ • Total: TBD   │ │ 5-10 years      │
+    │                 │ │                 │ │                 │ │                 │
+    │ Costs:          │ │                 │ │                 │ │ Expected return:│
+    │ • Personnel: 73 │ │                 │ │                 │ │ 2-5x            │
+    │ • Infrastructure│ │                 │ │                 │ │                 │
+    │   (gov't-aligned)│ │                 │ │                 │ │                 │
+    │ • Tools: 20     │ │                 │ │                 │ │                 │
+    │ • Total: 90+    │ │                 │ │                 │ │                 │
+    │                 │ │                 │ │                 │ │                 │
     │ Margin: 75%     │ │ Margin: 70%     │ │ Margin: TBD    │ │                 │
-    │                 │ │                 │ │                 │ │ Expected return:│
-    └─────────────────┘ │                 │ │                 │ │ 2-5x            │
+    │                 │ │                 │ │                 │ │                 │
+    └─────────────────┘ │                 │ │                 │ │                 │
                         │                 │ │                 │ │                 │
                         └─────────────────┘ └─────────────────┘ └─────────────────┘
 ```
@@ -309,6 +345,7 @@ The name reflects the core principle operating at three levels:
 | **Primary Activities** | Daily operations, government contracts, commercial deployments, technical support |
 | **Revenue Streams** | Government contracts (CITRA, Awqaf, CBK), enterprise subscriptions, consulting services |
 | **Cost Structure** | Engineering team (40–50 KWD), infrastructure (5–8 KWD), administration (3–5 KWD) |
+| **Infrastructure Policy** | Government recommendations first; regional Arab providers second; commercial only with approval |
 | **Licensing from Parent** | Annual royalty (10–20% of gross revenue) to Cohesion Holding |
 | **Tax Treatment (Kuwait)** | Potential 5-year startup tax holiday if registered under Kuwait Startup Law |
 | **Board/Governance** | Founder as manager; investors (if any) have board seat |
@@ -320,6 +357,7 @@ The name reflects the core principle operating at three levels:
 - License fee: 10–20% of annual gross operating revenue
 - License can be terminated if royalties unpaid for 90+ days
 - Parent retains all IP ownership; subsidiary cannot license third parties (except with parent written consent)
+- **Infrastructure Clause:** Subsidiary commits to aligning infrastructure with government recommendations and sovereign digital principles
 
 ---
 
@@ -333,7 +371,8 @@ The name reflects the core principle operating at three levels:
 | **Launch Timing** | Month 18 of project (mid-2027) |
 | **Primary Activities** | Advanced R&D, research grants, academic partnerships, technology development (T-Web, Gala, Vibroscape) |
 | **Revenue Streams** | Research grants (KFAS, government), academic partnerships, consulting |
-| **Cost Structure** | Research team (15 KWD), compute (5 KWD), conference/travel (3–5 KWD) |
+| **Cost Structure** | Research team (15 KWD), infrastructure (aligned) (5 KWD), conference/travel (3–5 KWD) |
+| **Infrastructure Policy** | Sovereign-first; collaborate with government research institutions |
 | **Licensing from Parent** | Annual royalty (5–10% of research grants + partnerships revenue) |
 | **Tax Treatment** | Potential R&D tax credits; 0% corporate tax on research grants in some jurisdictions |
 | **Governance** | Research Lead as director; founder provides strategic oversight |
@@ -344,6 +383,7 @@ The name reflects the core principle operating at three levels:
 - Allows researchers to publish findings, build academic credentials
 - Attracts grant funding without operational revenue pressure
 - Creates innovation pipeline for future commercial products
+- Infrastructure aligned with government research initiatives and regional collaboration
 
 ---
 
@@ -361,8 +401,9 @@ The name reflects the core principle operating at three levels:
 | **Time Horizon** | 5–10 years (institutional investor horizon) |
 | **Expected Return** | 2–5x capital over holding period |
 | **Governance** | Founder (or hired investment manager) as General Partner; limited discretion on investment decisions |
+| **Portfolio Alignment** | Invested companies encouraged to adopt sovereign infrastructure practices |
 
-**Philosophy:** Not a venture capital fund (which would require external LPs), but an **internal corporate investment arm** that recycles excess cash into ecosystem-building.
+**Philosophy:** Not a venture capital fund (which would require external LPs), but an **internal corporate investment arm** that recycles excess cash into ecosystem-building aligned with Arab-Islamic digital sovereignty.
 
 ---
 
@@ -378,6 +419,7 @@ The name reflects the core principle operating at three levels:
   - Regional expansion
   - IP strategy changes
   - Subsidiary formation
+  - **Infrastructure strategy and government alignment**
 - Approves annual budgets
 - Appoints/removes subsidiary managers
 
@@ -386,6 +428,7 @@ The name reflects the core principle operating at three levels:
 - GM has authority over day-to-day operations within budget
 - GM cannot make strategic decisions exceeding pre-approved limits
 - Reports monthly to founder on operations, financials, risks
+- **Infrastructure compliance:** Ensures all decisions align with sovereign digital policy
 
 **Example Delegation Matrix:**
 
@@ -397,6 +440,7 @@ The name reflects the core principle operating at three levels:
 | Approve new research grant proposal | Labs GM | Founder if >50 KWD |
 | Emergency procurement (<5 KWD) | Any GM | Post-approval reporting |
 | Licensing to new external partner | Founder | Strategic alignment |
+| **Infrastructure platform selection** | **Founder** | **Government recommendation alignment** |
 
 ---
 
@@ -406,26 +450,31 @@ The name reflects the core principle operating at three levels:
 - Founder reviews FY previous year results across all subsidiaries
 - Strategic planning for new year
 - Budget allocation to subsidiaries
+- **Infrastructure strategy review: Recommend government consultation**
 
 **March–April:**
 - Subsidiary GMs prepare Q1 operational reports
 - Founder meets with each GM individually
 - Approves Q2 activities
+- **Infrastructure compliance check**
 
 **May–August:**
 - Quarterly reporting from subsidiaries
 - Mid-year strategic review
 - Adjust forecasts if needed
+- **Infrastructure platform performance review**
 
 **September–October:**
 - FY planning for next year
 - Licensing agreement reviews with partners
 - Strategic decisions on expansion
+- **Consultation with government on infrastructure recommendations for Year 2**
 
 **November–December:**
 - Year-end financial consolidation
 - Tax planning
 - Founder's strategic message to team/partners
+- **Infrastructure audit and sovereign compliance certification**
 
 ---
 
@@ -442,6 +491,7 @@ The name reflects the core principle operating at three levels:
 | Register for tax/VAT | Week 4–5 | Accountant | If revenue >100 KWD annually |
 | Open company bank account | Week 5 | Founder | Required for capital deposit |
 | Deposit registered capital | Week 6 | Founder | 500 KWD minimum at formation |
+| **Consult government on infrastructure recommendations** | **Week 7** | **Founder + Legal** | **ICTC, CITRA, or relevant authority** |
 | **Cohesion Holding operational** | **Week 8** | — | Ready to sign subsidiary agreements |
 
 ---
@@ -451,11 +501,13 @@ The name reflects the core principle operating at three levels:
 | Task | Deadline | Responsible | Notes |
 |------|----------|------------|-------|
 | Draft Sardal Operations MOA | Week 1 | Legal counsel | Specify licensing from parent |
+| **Align infrastructure with government tech strategy** | **Week 1** | **Founder** | **Contact Ministry of Communications** |
 | Register Sardal Operations with MOC | Week 2 | Legal counsel | 5–7 business days |
 | Register for tax | Week 3 | Accountant | Startup tax holiday applications |
 | Sign Sardal Ops license agreement with parent | Week 4 | Founder + GM | Defines royalty %, term, renewal |
+| **Infrastructure implementation plan (gov-aligned)** | **Week 4** | **CTO + Founder** | **Document infrastructure choices** |
 | Deposit capital for Sardal Ops | Week 4 | Founder | 500 KWD |
-| **Sardal Operations operational** | **Week 6** | — | Can sign gov't contracts |
+| **Sardal Operations operational** | **Week 6** | — | Ready to sign gov't contracts |
 
 ---
 
@@ -464,8 +516,9 @@ The name reflects the core principle operating at three levels:
 | Task | Deadline | Responsible | Notes |
 |------|----------|------------|-------|
 | CITRA contract negotiation | Weeks 1–4 | Founder + legal | ~3 month process typically |
+| **Infrastructure alignment review with CITRA** | **Weeks 2–3** | **Founder + CITRA Tech Lead** | **Validate infrastructure choices** |
 | Contract signature & deposit | Week 5 | GM | 10% advance payment typical |
-| Begin project execution | Week 6 | Engineering team | v0.5 deliverables |
+| Begin project execution | Week 6 | Engineering team | v0.5 deliverables with gov-approved infrastructure |
 | **First revenue inflow** | **Month 6** | — | Monthly/milestone-based payments |
 
 ---
@@ -477,12 +530,128 @@ The name reflects the core principle operating at three levels:
 - **MOC Annual Report:** Renewal of commercial registration (annual fee ~50 KWD)
 - **Trademark Maintenance:** Renew trademarks annually (online through WIPO; minimal cost)
 - **Subsidiary Governance:** Annual meetings (record-keeping for corporate governance)
+- **Infrastructure Compliance:** Annual certification that infrastructure aligns with government recommendations and sovereign digital principles
 
 ---
 
-## Part 3: IP Ownership & Licensing
+## Part 3: Sovereign Infrastructure Policy
 
-### 3.1 IP Asset Inventory
+### 3.1 Infrastructure Philosophy
+
+**Core Principle:** 
+Infrastructure is not a technical detail—it is a strategic asset reflecting organizational values and alignment with national digital sovereignty objectives.
+
+**Policy:**
+- **Primary:** Align with official government recommendations from Kuwait technology bodies
+- **Secondary:** Regional Arab digital infrastructure providers
+- **Tertiary:** Only consider commercial solutions if government explicitly recommends or approves
+- **Never:** Default to US/Western cloud providers without explicit government consultation and approval
+
+---
+
+### 3.2 Infrastructure Categories & Decisions
+
+#### **Category 1: Compute & Hosting**
+
+**Definition:** Servers, processing power, virtual machines
+
+**Government-First Approach:**
+1. **Consult:** Contact Kuwait ICTC or CITRA for recommended data center standards
+2. **Prioritize:** Government-owned or government-recommended data centers in Kuwait or Arab countries
+3. **Alternative:** Regional Arab cloud providers (UAE, Saudi, Egypt)
+4. **Only if approved:** International commercial providers (AWS, Azure, Google Cloud)
+
+**Question to Ask Government:** 
+- "What infrastructure standards does the government recommend for AI/government contract deployment?"
+- "Are there government-approved data centers in Kuwait or the region?"
+
+**Implementation Timeline:**
+- Month 1 (Formation): Reach out to ICTC/CITRA for recommendations
+- Month 3–4 (Before Sardal Ops launch): Finalize infrastructure with government sign-off
+
+---
+
+#### **Category 2: Data Storage & Databases**
+
+**Definition:** Where data is stored, backup, disaster recovery
+
+**Government-First Approach:**
+1. **Consult:** Ask government what data residency requirements apply
+2. **Prioritize:** Data stored in Kuwait or Arab countries (regional alignment)
+3. **Compliance:** Ensure no data transfers to foreign servers without explicit government permission
+4. **Encryption:** Use strong encryption standards approved for government contracts
+
+**Question to Ask Government:**
+- "What are data residency and sovereignty requirements for government AI systems?"
+- "What encryption standards are required/recommended?"
+- "Are there restrictions on data transfer across borders?"
+
+---
+
+#### **Category 3: APIs & Integrations**
+
+**Definition:** How Sardal connects to external systems (CITRA databases, Central Bank systems, etc.)
+
+**Government-First Approach:**
+1. **Direct Integration:** Prefer direct connections to government systems over third-party intermediaries
+2. **Security Standards:** Meet government IT security standards (ISO 27001, local equivalents)
+3. **Audit Trail:** Maintain comprehensive logs of all data access and integration calls
+4. **Compliance:** Ensure all integrations comply with government classified information handling rules
+
+**Question to Ask Government:**
+- "What are the technical standards for secure integration with government systems?"
+- "What audit and logging requirements apply?"
+
+---
+
+#### **Category 4: Development & Testing Infrastructure**
+
+**Definition:** Development servers, testing environments, CI/CD pipelines
+
+**Government-First Approach:**
+1. **Separate Environments:** Keep development separate from production (no government data in dev)
+2. **Approved Tools:** Use development tools that align with government tech standards
+3. **Code Repositories:** Private GitHub or government-approved code hosting
+4. **Transparency:** Document all development infrastructure choices for government audits
+
+**Question to Ask Government:**
+- "Can we use GitHub for private code repositories, or is there a government-approved alternative?"
+- "What CI/CD tools are compatible with government security standards?"
+
+---
+
+### 3.3 Infrastructure Decision Timeline
+
+**Month 1–2:**
+- [ ] Identify primary government contact (ICTC, CITRA, or CBK)
+- [ ] Schedule initial consultation on infrastructure requirements
+- [ ] Request government recommendations for data centers, hosting, security standards
+
+**Month 2–3:**
+- [ ] Document government recommendations in writing (email or formal memo)
+- [ ] Evaluate 2–3 government-recommended options
+- [ ] Present findings to government contact for approval
+
+**Month 3–4:**
+- [ ] Finalize infrastructure choice with government sign-off
+- [ ] Implement government-approved infrastructure
+- [ ] Document all choices for compliance audit
+
+**Month 5–6:**
+- [ ] Deploy Sardal v0.5 on government-approved infrastructure
+- [ ] Conduct security audit demonstrating compliance
+- [ ] Document infrastructure alignment for government contract terms
+
+**Ongoing:**
+- [ ] Annual infrastructure review with government
+- [ ] Quarterly compliance certification
+- [ ] Any major infrastructure changes require government consultation
+
+---
+
+## Part 4: IP Ownership & Licensing
+
+### 4.1 IP Asset Inventory
 
 Cohesion Holding owns the following intellectual property:
 
@@ -513,7 +682,7 @@ Cohesion Holding owns the following intellectual property:
 
 ---
 
-### 3.2 IP Licensing Model
+### 4.2 IP Licensing Model
 
 #### **Internal Licensing (Subsidiaries → Parent)**
 
@@ -523,6 +692,7 @@ Cohesion Holding owns the following intellectual property:
 - License term: 3 years (renewable annually if royalties current)
 - Use restriction: Only for government + enterprise deployments (not academic)
 - IP remains 100% parent-owned; Sardal Ops has no IP rights
+- **Infrastructure Compliance Clause:** Licensee must maintain infrastructure alignment with government recommendations
 
 **Cohesion Labs:**
 - Receives **non-exclusive, revocable license** to use Sardal core components for research
@@ -530,17 +700,19 @@ Cohesion Holding owns the following intellectual property:
 - License term: 3 years (renewable)
 - Use restriction: Research and academic deployment only; cannot commercialize without parent approval
 - May publish findings (with parent co-authorship)
+- **Infrastructure Compliance:** Must use government-approved or academic institution infrastructure
 
 ---
 
 #### **External Licensing (Partner → Parent)**
 
 **Model 1: Exclusive Government License**
-- Partner: UAE Government AI Initiative
-- Terms: Exclusive license for UAE market
+- Partner: UAE Government AI Initiative, Saudi Digital Authority, etc.
+- Terms: Exclusive license for regional market
 - Fee: 100–200 KWD annual fixed OR 10–20% of partner's revenue
 - Duration: 5 years
-- Restrictions: No sublicensing; internal use only
+- Restrictions: No sublicensing; internal government use only
+- **Infrastructure Requirement:** Partner commits to sovereign infrastructure alignment
 
 **Model 2: Non-Exclusive Commercial License**
 - Partner: Arabic NLP Software Company (private)
@@ -548,6 +720,7 @@ Cohesion Holding owns the following intellectual property:
 - Fee: 5–10% of partner's annual revenue (or 10 KWD minimum)
 - Duration: 3 years, auto-renewing
 - Restrictions: Partner can sublicense to their customers with approval
+- **Infrastructure Requirement:** Partner must commit to government-approved infrastructure where applicable
 
 **Model 3: Academic License**
 - Partner: Arab universities + research institutions
@@ -555,26 +728,28 @@ Cohesion Holding owns the following intellectual property:
 - Duration: Indefinite, non-exclusive
 - Restrictions: Research and teaching only; must publish findings with Sardal attribution
 - Strategic Value: Talent recruitment, research credibility, publication pipeline
+- **Infrastructure:** Flexibility for academic institutions; support government research initiatives
 
 **Model 4: OEM/Integration License**
-- Partner: Cloud provider (Amazon, Google, Microsoft local partner)
-- Terms: License to integrate Sardal into cloud offerings
+- Partner: Regional technology provider, telecom operator, etc.
+- Terms: License to integrate Sardal into services
 - Fee: Revenue share (5–15% of Sardal-powered service revenue)
 - Duration: 3–5 years
 - Escalation: Fee increases if integration reaches >100K transactions/month
+- **Infrastructure Requirement:** Partner commits to sovereign/regional infrastructure use
 
 ---
 
-### 3.3 IP Protection Strategy
+### 4.3 IP Protection Strategy
 
 #### **Patent Filing (International)**
 
-| Invention | Jurisdiction | Timeline | Status |
-|-----------|--------------|----------|--------|
-| Semitic Root Encoding Algorithm | Kuwait + WIPO (PCT) | Months 1–3 | File PCT application |
-| Modulo-19 Protocol | Kuwait + WIPO (PCT) | Months 2–4 | File PCT application |
-| Cognitive Firewall | Kuwait only (first) | Months 3–5 | File national application |
-| T-Web Protocol | Kuwait + WIPO (PCT) | Months 6–12 | File when research mature |
+| Invention | Jurisdiction | Timeline | Status | Notes |
+|-----------|--------------|----------|--------|-------|
+| Semitic Root Encoding Algorithm | Kuwait + WIPO (PCT) | Months 1–3 | File PCT application | Core innovation |
+| Modulo-19 Protocol | Kuwait + WIPO (PCT) | Months 2–4 | File PCT application | Verification system |
+| Cognitive Firewall | Kuwait only (first) | Months 3–5 | File national application | Security layer |
+| T-Web Protocol | Kuwait + WIPO (PCT) | Months 6–12 | File when research mature | Decentralized web |
 
 **Cost:** ~50–100 KWD for PCT filing; ~30–50 KWD per country for national phase
 
@@ -602,9 +777,9 @@ Cohesion Holding owns the following intellectual property:
 
 **Implementation:**
 - Source code stored in **private GitHub repository** (access restricted)
-- Database credentials stored in **vault** (HashiCorp Vault or AWS Secrets Manager)
+- Database credentials stored in **vault** (government-approved options)
 - Documentation encrypted when containing sensitive data
-- No public demonstrations of core algorithm details
+- No public demonstrations of core algorithm details without government approval
 
 ---
 
@@ -616,169 +791,13 @@ Cohesion Holding owns the following intellectual property:
 
 ---
 
-## Part 4: Operational Agreements
-
-### 4.1 Parent-Subsidiary License Agreement (Template)
-
-**Sample Clause Structure:**
-
-```
-SOFTWARE LICENSE AGREEMENT
-
-Between: Cohesion Holding (Licensor)
-And: Sardal Operations LLC (Licensee)
-
-1. GRANT OF LICENSE
-   1.1 Licensor grants to Licensee a non-exclusive, non-transferable license to use 
-       the Sardal Operating System (Software) for:
-       - Government and enterprise deployments in Kuwait
-       - Versions 0.5 through 1.0 and future releases
-       
-   1.2 Licensee may not sublicense, modify, or distribute the Software without 
-       written consent from Licensor.
-
-2. LICENSE FEE
-   2.1 Licensee shall pay Licensor a monthly royalty of:
-       - 10% of gross operating revenue (including government contracts, 
-         enterprise subscriptions, and custom services)
-       - Payable within 15 days of month-end
-       - Minimum monthly fee: 5 KWD (even if revenue zero in that month)
-       
-   2.2 Annual true-up: If actual revenue lower than 12 × minimum fee, 
-        licensee may claim credit against future months (not cash refund).
-
-3. TERM
-   3.1 Initial term: 3 years from execution
-   3.2 Automatic renewal: Annual thereafter if royalties current and 
-       no material breach
-   3.3 Termination: Either party may terminate with 90 days notice 
-       if royalties unpaid for 30+ days
-
-4. IP OWNERSHIP
-   4.1 All intellectual property in the Software remains the exclusive 
-       property of Licensor, including:
-       - Source code
-       - Algorithms and methodologies
-       - Documentation
-       - All derivatives or modifications
-       
-   4.2 Licensee retains ownership of:
-       - Customer data and configurations
-       - Custom integrations specific to Licensee's clients
-       - Licensee's operational processes
-
-5. CONFIDENTIALITY
-   5.1 Licensee shall maintain strict confidentiality of the Software
-   5.2 Licensee may only disclose to:
-       - Employees with need-to-know
-       - Customers under separate NDA
-       - Regulatory authorities if required by law
-       
-6. WARRANTIES & DISCLAIMERS
-   6.1 Licensor provides Software "as-is" without warranty of merchantability 
-       or fitness for particular purpose
-   6.2 Licensor does not warrant that Software will be error-free
-   6.3 Licensor's total liability: Limited to 12 months of royalty payments
-
-7. COMPLIANCE WITH LAW
-   7.1 Licensee shall comply with all applicable laws in:
-       - Deploying the Software
-       - Handling customer data
-       - Government contract requirements
-   7.2 Licensee shall not use Software in any manner violating 
-       Islamic principles or Maqasid framework
-```
-
----
-
-### 4.2 Government Master Service Agreement
-
-**Key Terms for CITRA Contract:**
-
-```
-GOVERNMENT MASTER SERVICE AGREEMENT
-(Between Sardal Operations and CITRA / Ministry of Interior)
-
-1. SERVICES
-   1.1 Development and deployment of Sardal v0.5 through v1.0
-   1.2 Integration with CITRA document processing systems
-   1.3 Technical support and bug fixes
-   1.4 Training of 10–20 government personnel
-
-2. DELIVERABLES
-   2.1 v0.5 (Month 3): Baseline system, 100 test documents processed
-   2.2 v0.6 (Month 6): Enhanced accuracy, government terminology
-   2.3 v0.8 (Month 9): Production-ready version
-   2.4 v1.0 (Month 12): Full feature set, compliance audit complete
-
-3. FEES
-   3.1 Total contract value: 250 KWD over 12 months
-   3.2 Payment schedule:
-       - 10% upon signature (25 KWD)
-       - 25% upon v0.5 delivery (62.5 KWD)
-       - 25% upon v0.8 delivery (62.5 KWD)
-       - 40% upon v1.0 delivery & acceptance (100 KWD)
-
-4. INTELLECTUAL PROPERTY
-   4.1 All general improvements to Sardal OS remain Sardal Operations' IP
-   4.2 Government owns custom modifications specific to CITRA
-   4.3 Government may not sublicense without written consent
-
-5. CONFIDENTIALITY
-   5.1 Both parties maintain strict confidentiality
-   5.2 Government may disclose to authorized personnel only
-   5.3 Sardal Operations maintains IP confidentiality
-
-6. EXCLUSIVITY (IF APPLICABLE)
-   6.1 During contract term, Sardal Operations shall not license Sardal 
-       to private Arabic document processing companies (non-exclusive with 
-       government oversight)
-```
-
----
-
-## Part 5: Risk Mitigation & Contingency Planning
-
-### 5.1 Key Risks & Mitigation
-
-| Risk | Impact | Mitigation |
-|------|--------|-----------|
-| **Government contract cancellation** | Loss of primary revenue stream | 5+ diversified government clients by Year 3; private sector backup revenue |
-| **IP infringement claim** | Costly litigation; possible shutdown | Conduct freedom-to-operate analysis; patent non-obviousness searches |
-| **Technology obsolescence** | System becomes non-competitive | Continuous R&D (Cohesion Labs); quarterly tech reviews |
-| **Key person risk** (founder unavailable) | Operational paralysis | Document all critical processes; hire COO by Year 2; board oversight |
-| **Regulatory changes** (Kuwait AI policy) | Compliance burden or licensing restrictions | Active engagement with policy makers; diversification to UAE/Saudi |
-| **Competitor emerges** | Market share erosion | Focus on sustainable differentiators (Maqasid, Islamic compliance); first-mover advantage |
-| **Investor demand dilutes founder control** | Loss of strategic autonomy | Maintain 100% parent ownership; only take investment in subsidiaries |
-| **Data breach or security incident** | Reputational damage; government contract loss | SOC2/ISO 27001 certification; regular security audits; incident response plan |
-
----
-
-### 5.2 Contingency Scenarios
-
-#### **Scenario 1: Government Contract Delayed (Best Case)**
-- Contract signature pushed from Month 6 to Month 12
-- **Impact:** Delay in revenue; cash flow strain
-- **Response:** Negotiate advance deposit; pivot to private sector pilots (Months 6–12)
-
-#### **Scenario 2: Regulatory Uncertainty**
-- Kuwait government imposes AI licensing or compliance requirements
-- **Impact:** Potential delays or reclassification of Sardal OS
-- **Response:** Expand to UAE/Saudi (less regulatory uncertainty); engage with policy makers early
-
-#### **Scenario 3: Major Investor Acquisition Offer**
-- Regional tech giant offers to acquire Sardal Operations for 500 KWD
-- **Impact:** Opportunity to scale; but risk of losing founder control
-- **Response:** Accept only if buyer agrees to parent company independence; maintain IP ownership and can build new products
-
----
-
-## Part 6: Conclusion & Implementation Roadmap
+## Part 5: Conclusion & Implementation Roadmap
 
 ### Implementation Checklist
 
 **Month 1 (May 2026):**
 - [ ] Finalize legal counsel (Kuwait-based corporate law firm)
+- [ ] **Contact government (ICTC/CITRA) for infrastructure recommendations**
 - [ ] Draft and file Memorandum of Association for Cohesion Holding
 - [ ] Publish in Kuwait official gazette
 - [ ] Register with MOC
@@ -788,24 +807,28 @@ GOVERNMENT MASTER SERVICE AGREEMENT
 - [ ] Register for tax/VAT
 - [ ] Open company bank account
 - [ ] Deposit registered capital (500 KWD)
+- [ ] **Receive government infrastructure recommendations in writing**
 
 **Month 3:**
 - [ ] Draft and file Sardal Operations MOA
 - [ ] Register Sardal Operations
 - [ ] Sign parent-subsidiary license agreement
+- [ ] **Finalize infrastructure vendor selection (with government approval)**
 - [ ] Begin CITRA contract negotiations
 
 **Month 4–6:**
 - [ ] Finalize CITRA contract
 - [ ] Hire initial engineering team (2–3 engineers)
-- [ ] Begin v0.5 development
+- [ ] Begin v0.5 development on government-approved infrastructure
 - [ ] Trademark filings (Kuwait + regional)
+- [ ] **Infrastructure deployment and security audit**
 
 **Month 6–12:**
-- [ ] Deliver v0.5 to CITRA (Month 6)
+- [ ] Deliver v0.5 to CITRA (Month 6) on government-approved infrastructure
 - [ ] Secure second government contract (Awqaf or CBK)
 - [ ] Patent filings (PCT applications)
 - [ ] Plan Labs subsidiary formation (Year 2)
+- [ ] **Annual infrastructure compliance review**
 
 **Year 2:**
 - [ ] Transition to multi-member LLC (if investor joins)
@@ -813,14 +836,16 @@ GOVERNMENT MASTER SERVICE AGREEMENT
 - [ ] Expand to 2–3 government clients
 - [ ] Begin private sector licensing
 - [ ] Regional expansion planning
+- [ ] **Consult government on Year 2 infrastructure strategy**
 
 **Year 3:**
 - [ ] Plan regional subsidiaries (UAE, Saudi, Egypt)
 - [ ] Form Cohesion Capital (if profitability achieved)
 - [ ] Consider acquisition or strategic partnership offers
-- [ ] Build portfolio of 3–5 invested startups
+- [ ] Build portfolio of 3–5 invested startups aligned with sovereign principles
 
 ---
 
-**Document Status:** Final Implementation Guide (v1.0)  
-**Next Review:** 2026-08-14 (upon CITRA contract signature)
+**Document Status:** Final Implementation Guide (v1.0-REVISED - Sovereign Infrastructure)  
+**Next Review:** 2026-08-14 (upon CITRA contract signature)  
+**Infrastructure Compliance Review:** Quarterly (starting Month 4)
