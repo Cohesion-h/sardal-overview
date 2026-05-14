@@ -1,0 +1,38 @@
+title: Sardal - Sovereign Arabic-Islamic AI Operating System
+description: Complete documentation for Cohesion Holding's sovereign AI systems, business structure, IP strategy, and licensing models.
+author: Cohesion Holding
+url: https://sardal.ai
+baseurl: ""
+repository: Cohesion-h/sardal-overview
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# SEO Settings
+google_site_verification: ""
+google_analytics: ""
+
+# Minima Settings
+minima:
+  skin: dark
+  social_links:
+    - platform: linkedin
+      url: https://linkedin.com/company/cohesion-holding
+    - platform: twitter
+      url: https://twitter.com/sardal_ai
+    - platform: github
+      url: https://github.com/Cohesion-h
+
+# Language settings (for future Arabic support)
+languages:
+  - en
+  - ar
+
+# Exclude files from build
+exclude:
+  - .jekyll-cache
+  - .gitignore
+  - README.md
+  - LICENSE
+  - node_modules
