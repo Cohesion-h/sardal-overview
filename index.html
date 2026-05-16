@@ -1,263 +1,330 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html class="dark" dir="rtl" lang="ar">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.5">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>سردال OS | الذكاء السيادي</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&family=Noto+Kufi+Arabic:wght@400;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "error": "#ffb4ab",
+        "inverse-surface": "#e3e2e6",
+        "surface-container-lowest": "#0d0e11",
+        "on-error": "#690005",
+        "tertiary-fixed": "#e2e2e2",
+        "surface-tint": "#97ccf8",
+        "background": "#121316",
+        "primary-fixed-dim": "#97ccf8",
+        "outline-variant": "#41474e",
+        "surface-dim": "#121316",
+        "inverse-on-surface": "#2f3033",
+        "on-tertiary": "#2f3131",
+        "surface-variant": "#343538",
+        "on-secondary-container": "#afb6bd",
+        "on-tertiary-container": "#484a4a",
+        "outline": "#8b9199",
+        "inverse-primary": "#2a638a",
+        "surface": "#121316",
+        "primary": "#afdaff",
+        "on-tertiary-fixed": "#1a1c1c",
+        "secondary-fixed": "#dce3ea",
+        "on-tertiary-fixed-variant": "#454747",
+        "on-surface": "#e3e2e6",
+        "on-primary-fixed-variant": "#024b70",
+        "tertiary": "#d4d5d5",
+        "on-secondary-fixed": "#151c21",
+        "surface-bright": "#38393c",
+        "tertiary-fixed-dim": "#c6c6c6",
+        "surface-container-highest": "#343538",
+        "secondary-fixed-dim": "#c0c7ce",
+        "on-background": "#e3e2e6",
+        "on-error-container": "#ffdad6",
+        "on-surface-variant": "#c1c7cf",
+        "on-primary-container": "#084e73",
+        "secondary": "#c0c7ce",
+        "primary-container": "#8abfea",
+        "tertiary-container": "#b9b9b9",
+        "on-secondary-fixed-variant": "#40484d",
+        "on-primary": "#00344f",
+        "secondary-container": "#40484d",
+        "surface-container-low": "#1b1b1f",
+        "error-container": "#93000a",
+        "surface-container-high": "#292a2d",
+        "primary-fixed": "#cbe6ff",
+        "surface-container": "#1f1f23",
+        "on-primary-fixed": "#001e30",
+        "on-secondary": "#2a3137"
+      },
+      borderRadius: {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px"
+      },
+      spacing: {
+        "xl": "80px", "sm": "12px", "md": "24px",
+        "margin-mobile": "16px", "lg": "48px", "gutter": "24px",
+        "margin-desktop": "48px", "base": "8px", "xs": "4px"
+      },
+      fontFamily: {
+        "display-lg-mobile": ["Noto Kufi Arabic"],
+        "body-md": ["Noto Kufi Arabic"],
+        "display-lg": ["Noto Kufi Arabic"],
+        "title-sm": ["Noto Kufi Arabic"],
+        "label-caps": ["Hanken Grotesk"],
+        "headline-md": ["Noto Kufi Arabic"]
+      },
+      fontSize: {
+        "display-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+        "title-sm": ["18px", {"lineHeight": "24px", "fontWeight": "600"}],
+        "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}]
+      }
+    }
+  }
+}
+</script>
+<style>
+body { background-color: #121316; color: #e3e2e6; font-family: 'Noto Kufi Arabic', sans-serif; overflow-x: hidden; }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+.glass-panel { background: rgba(27,27,31,0.6); backdrop-filter: blur(20px); border-top: 1px solid rgba(208,215,222,0.15); border-left: 1px solid rgba(208,215,222,0.1); }
+.brushed-metal { background: linear-gradient(135deg, #2a3137 0%, #151c21 100%); box-shadow: inset 0 1px 0 rgba(255,255,255,0.05); }
+.primary-glow { box-shadow: 0 0 40px -10px rgba(138,191,234,0.4); }
+.text-glow { text-shadow: 0 0 12px rgba(138,191,234,0.5); }
+</style>
 </head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html class="dark" dir="rtl" lang="ar"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="utf-8"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta content="width=device-width, initial-scale=1.0" name="viewport"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;سردال OS | الذكاء السيادي لدولة الكويت&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&amp;amp;family=Noto+Kufi+Arabic:wght@400;600;700&amp;amp;display=swap" rel="stylesheet"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;amp;display=swap" rel="stylesheet"/&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>tailwind.config = {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>darkMode: "class",</p>
-<p class="p1"><span class="Apple-converted-space">            </span>theme: {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>extend: {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>colors: {</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>primary: "#7cb1db",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"primary-container": "#5a8fb8",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"on-primary": "#00344f",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>surface: "#0f1114",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"surface-container": "#1a1c21",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"on-surface": "#e3e2e6",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>"on-surface-variant": "#a8aeb6",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>outline: "#6b7280",</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>background: "#0f1114"</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                </span>}</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body { background-color: #0f1114; color: #e3e2e6; font-family: 'Noto Kufi Arabic', 'Hanken Grotesk', sans-serif; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.glass-panel { background: rgba(26, 28, 33, 0.7); backdrop-filter: blur(24px); border: 1px solid rgba(124, 177, 219, 0.1); }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.section-header { font-size: 2.5rem; line-height: 2.9rem; font-weight: 700; letter-spacing: -0.03em; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.nav-active { color: #7cb1db; position: relative; }</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.nav-active:after { content: ''; position: absolute; bottom: -2px; left: 0; width: 100%; height: 2px; background: #7cb1db; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body class="dark"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Top Navigation --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header class="sticky top-0 z-50 bg-[#0f1114]/95 backdrop-blur-xl border-b border-outline/20"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-screen-2xl mx-auto px-8 flex items-center justify-between h-20"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex items-center gap-4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="font-bold text-3xl tracking-tighter text-primary"&gt;سردال&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="font-bold text-3xl tracking-tighter text-white"&gt;OS&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;nav class="hidden md:flex items-center gap-10 text-sm font-medium"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#vision" class="hover:text-primary transition-colors"&gt;الرؤية&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#value" class="hover:text-primary transition-colors"&gt;القيمة الاستراتيجية&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#impact" class="hover:text-primary transition-colors"&gt;الأثر الوطني&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#team" class="hover:text-primary transition-colors"&gt;الفريق&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })"<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                        </span>class="px-7 py-2.5 rounded-2xl bg-primary text-[#00344f] font-bold text-sm flex items-center gap-2 hover:brightness-110 transition-all active:scale-[0.985]"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span&gt;تواصل معنا&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Hero Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="relative min-h-[92vh] flex items-center pt-8 overflow-hidden"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="absolute inset-0 bg-[radial-gradient(#1f242b_0.8px,transparent_1px)] bg-[length:4px_4px] opacity-50"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-screen-2xl mx-auto px-8 relative z-10"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="max-w-3xl"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-primary/10 border border-primary/30 mb-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-2 h-2 bg-primary rounded-full animate-pulse"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="font-bold text-sm tracking-[1px] text-primary"&gt;مشروع وطني استراتيجي&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">                </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h1 class="text-[76px] leading-[1.02] font-bold tracking-tighter mb-6"&gt;</p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">                    </span>الذكاء السيادي&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="text-primary"&gt;لدولة الكويت&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/h1&gt;</p>
-<p class="p2"><span class="Apple-converted-space">                </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="max-w-xl text-2xl text-on-surface-variant font-light mb-12"&gt;</p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">                    </span>بناء بنية تحتية وطنية مستقلة للذكاء الاصطناعي تلبي احتياجات الجهات الحكومية وتحمي السيادة الرقمية.</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">                </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex items-center gap-4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })"<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                            </span>class="px-11 py-4 bg-primary text-[#00344f] font-bold rounded-2xl flex items-center gap-3 hover:brightness-105 transition-all text-lg active:scale-[0.985]"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span&gt;ابدأ الشراكة&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;button onclick="document.getElementById('value').scrollIntoView({ behavior: 'smooth' })"<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                            </span>class="px-9 py-4 border border-outline/60 hover:bg-white/5 rounded-2xl flex items-center gap-3 transition-all text-lg"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span&gt;اكتشف القيمة&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Vision --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="vision" class="max-w-screen-2xl mx-auto px-8 py-24"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-4xl mx-auto text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="font-bold text-primary tracking-[1.5px] text-sm"&gt;OUR VISION&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-header mt-3"&gt;رؤيتنا&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="mt-8 text-2xl text-on-surface-variant leading-relaxed"&gt;</p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">                </span>أن نكون الذراع التقني السيادي الرائد في دولة الكويت لبناء أنظمة ذكاء اصطناعي محلية آمنة ومستقلة،<span class="Apple-converted-space"> </span></p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">                </span>تدعم رؤية كويت 2035 وتحمي البيانات الوطنية من أي تدخل خارجي.</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Strategic Value --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="value" class="max-w-screen-2xl mx-auto px-8 py-20 bg-surface-container/40"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-5xl mx-auto"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="text-center mb-14"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="font-bold text-primary tracking-[1.5px] text-sm"&gt;STRATEGIC VALUE&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="section-header mt-3"&gt;القيمة الاستراتيجية&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-3 gap-6"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-panel p-9 rounded-3xl group hover:border-primary/30 transition-all"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-primary mb-5"&gt;&lt;span class="material-symbols-outlined text-5xl"&gt;security&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-bold text-2xl mb-4"&gt;السيادة الرقمية&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-on-surface-variant"&gt;بنية تحتية محلية معزولة تضمن السيطرة الكاملة على البيانات الوطنية وتحميها من أي تدخل خارجي.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-panel p-9 rounded-3xl group hover:border-primary/30 transition-all"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-primary mb-5"&gt;&lt;span class="material-symbols-outlined text-5xl"&gt;groups&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-bold text-2xl mb-4"&gt;الكفاءات الوطنية&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-on-surface-variant"&gt;استقطاب وتطوير الكفاءات الكويتية المتخصصة في مجالات الذكاء الاصطناعي والأمن السيبراني.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-panel p-9 rounded-3xl group hover:border-primary/30 transition-all"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-primary mb-5"&gt;&lt;span class="material-symbols-outlined text-5xl"&gt;trending_up&lt;/span&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-bold text-2xl mb-4"&gt;النمو الاقتصادي&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-on-surface-variant"&gt;خلق فرص استثمارية جديدة وتعزيز مكانة الكويت كمركز إقليمي للتقنيات السيادية.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Impact --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="impact" class="max-w-screen-2xl mx-auto px-8 py-24"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-4xl mx-auto text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="font-bold text-primary tracking-[1.5px] text-sm"&gt;NATIONAL IMPACT&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-header mt-3"&gt;الأثر الوطني&lt;/h2&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mt-12 grid md:grid-cols-2 gap-8 text-right"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-panel p-10 rounded-3xl"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-6xl font-bold text-primary mb-3"&gt;80-85%&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-2xl font-medium"&gt;هامش تشغيلي متوقع&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-4 text-on-surface-variant"&gt;من خلال نموذج أعمال مستدام يعتمد على العقود الحكومية والمؤسسية.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-panel p-10 rounded-3xl"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-6xl font-bold text-primary mb-3"&gt;400K+&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-2xl font-medium"&gt;دينار كويتي إيرادات مستهدفة&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-4 text-on-surface-variant"&gt;خلال السنوات الخمس الأولى من التشغيل.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Team --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="team" class="max-w-screen-2xl mx-auto px-8 py-20 bg-surface-container/40"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-5xl mx-auto"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="text-center mb-14"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="font-bold text-primary tracking-[1.5px] text-sm"&gt;LEADERSHIP&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="section-header mt-3"&gt;الفريق القيادي&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="mt-4 text-on-surface-variant max-w-md mx-auto"&gt;نخبة من الكفاءات الوطنية المتخصصة في الذكاء الاصطناعي، الأمن السيبراني، والحوكمة المؤسسية.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-3 gap-6"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-panel p-9 rounded-3xl text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-20 h-20 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-7"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="material-symbols-outlined text-primary text-5xl"&gt;person_celebrate&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="font-bold text-xl"&gt;المؤسس والرئيس التنفيذي&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-primary mt-1.5"&gt;حمد فهد العتيبي&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-5 text-sm text-on-surface-variant"&gt;قيادة الرؤية الاستراتيجية والشراكات الحكومية.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-panel p-9 rounded-3xl text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-20 h-20 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-7"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="material-symbols-outlined text-primary text-5xl"&gt;balance&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="font-bold text-xl"&gt;المستشار القانوني&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-5 text-sm text-on-surface-variant"&gt;ضمان الامتثال الكامل للتشريعات الوطنية وصياغة الاتفاقيات الاستراتيجية.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="glass-panel p-9 rounded-3xl text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-20 h-20 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-7"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="material-symbols-outlined text-primary text-5xl"&gt;terminal&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="font-bold text-xl"&gt;المدير التقني&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-5 text-sm text-on-surface-variant"&gt;تصميم البنية التحتية السيادية وتطبيق أحدث تقنيات التشفير والحماية.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- CTA --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="contact" class="max-w-screen-2xl mx-auto px-8 py-28 text-center border-t border-outline/10"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-2xl mx-auto"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="section-header"&gt;كن جزءاً من مسيرة السيادة الرقمية&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="max-w-md mx-auto mt-6 text-xl text-on-surface-variant"&gt;نحن نبني المستقبل بأيدي كفاءاتنا الوطنية. تواصل معنا لمناقشة فرص الشراكة.&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mt-12"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="mailto:cohesionkw@gmail.com"<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                   </span>class="inline-flex items-center px-14 py-4 bg-primary text-[#00344f] font-bold rounded-2xl hover:brightness-105 transition-all text-lg"&gt;</p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">                    </span>راسلنا الآن</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mt-16 text-sm text-on-surface-variant"&gt;</p>
-<p dir="rtl" class="p1"><span class="Apple-converted-space">                </span>حمد فهد العتيبي — المؤسس&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>cohesionkw@gmail.com | +965 5117 9990</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>document.querySelectorAll('a[href^="#"]').forEach(anchor =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>anchor.addEventListener('click', function (e) {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>const target = document.querySelector(this.getAttribute('href'));</p>
-<p class="p1"><span class="Apple-converted-space">                </span>if (target) {<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                    </span>e.preventDefault();<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                    </span>target.scrollIntoView({ behavior: 'smooth' });<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">                </span>}</p>
-<p class="p1"><span class="Apple-converted-space">            </span>});</p>
-<p class="p1"><span class="Apple-converted-space">        </span>});</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">        </span>window.addEventListener('scroll', () =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>const sections = ['vision', 'value', 'impact', 'team'];</p>
-<p class="p1"><span class="Apple-converted-space">            </span>let current = '';</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>sections.forEach(sectionId =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>const section = document.getElementById(sectionId);</p>
-<p class="p1"><span class="Apple-converted-space">                </span>if (section) {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>const sectionTop = section.offsetTop;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>if (scrollY &gt;= sectionTop - 200) {</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>current = sectionId;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                </span>}</p>
-<p class="p1"><span class="Apple-converted-space">            </span>});</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>document.querySelectorAll('nav a').forEach(link =&gt; {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>link.classList.remove('nav-active');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>if (link.getAttribute('href') === '#' + current) {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>link.classList.add('nav-active');</p>
-<p class="p1"><span class="Apple-converted-space">                </span>}</p>
-<p class="p1"><span class="Apple-converted-space">            </span>});</p>
-<p class="p1"><span class="Apple-converted-space">        </span>});</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+<body class="dark selection:bg-primary-container selection:text-on-primary-container">
+<header class="flex justify-between items-center px-gutter py-4 w-full sticky top-0 z-40 bg-surface-container-lowest/60 backdrop-blur-md border-b border-outline-variant/20 pr-72">
+  <div class="flex items-center gap-md">
+    <h1 class="font-headline-md text-headline-md font-bold text-primary tracking-tight">Sardal</h1>
+    <nav class="hidden md:flex gap-md">
+      <a class="text-primary font-bold border-b-2 border-primary py-1" href="#">Dashboard</a>
+      <a class="text-on-surface-variant font-medium hover:text-primary transition-all duration-200" href="#">Directives</a>
+      <a class="text-on-surface-variant font-medium hover:text-primary transition-all duration-200" href="#">Sovereignty</a>
+    </nav>
+  </div>
+  <div class="flex items-center gap-sm">
+    <div class="relative focus-within:ring-1 focus-within:ring-primary/50 rounded-full bg-surface-container-high px-4 py-1.5 flex items-center gap-2">
+      <span class="material-symbols-outlined text-on-surface-variant text-[20px]">search</span>
+      <input class="bg-transparent border-none focus:ring-0 text-body-md w-48 text-right font-body-md" placeholder="البحث في النظام..." type="text"/>
+    </div>
+    <div class="flex items-center gap-base">
+      <button class="p-2 text-on-surface-variant hover:text-primary transition-all"><span class="material-symbols-outlined">notifications</span></button>
+      <button class="p-2 text-on-surface-variant hover:text-primary transition-all"><span class="material-symbols-outlined">history</span></button>
+      <div class="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container font-bold overflow-hidden">
+        <img alt="User Profile" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZ6GHDddHFTKIw6T_z5TiyrQhJLTs4We-zL0WSCKrI3OBYYGt45OeE46ipmfBeSEs-TSLqXOeIFofBTkn9AnsSIU8ZS6GJZ8ALfoKMgPK6PhajMY-UlXMEfW5sXDSVb8v-UqDnCfytm5mbpQw5VPwoXSWKkSVV1MEF9E8Mm9fJZ1aMEEVGYuk34eHafQNIicr0fkP5iP9ViWTSQDIVCY-jn8iO14kiV8lfQzD29Xuy7aABHu28BPDFYYkIJdma6c11hNIsvepqWN6Y"/>
+      </div>
+    </div>
+  </div>
+</header>
+<aside class="fixed inset-y-0 right-0 z-50 flex flex-col h-full w-72 bg-surface-container-low/80 backdrop-blur-xl border-l border-outline-variant/10">
+  <div class="p-md flex flex-col gap-xs mb-lg">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-lg brushed-metal flex items-center justify-center primary-glow border border-primary/20">
+        <span class="material-symbols-outlined text-primary" style="font-variation-settings:'FILL' 1;">security</span>
+      </div>
+      <div>
+        <div class="font-headline-md text-headline-md font-bold text-primary tracking-tight">سردال OS</div>
+        <div class="text-label-caps font-label-caps text-on-surface-variant opacity-70">الذكاء السيادي</div>
+      </div>
+    </div>
+  </div>
+  <nav class="flex-1 flex flex-col gap-1 overflow-y-auto">
+    <a class="flex items-center gap-4 text-on-surface hover:text-primary px-6 py-4 transition-all hover:bg-primary/5" href="#">
+      <span class="material-symbols-outlined">home</span><span class="font-body-md text-body-md">الرئيسية</span>
+    </a>
+    <a class="flex items-center gap-4 text-primary font-bold bg-primary/10 border-r-4 border-primary px-6 py-4 cursor-pointer" href="#">
+      <span class="material-symbols-outlined">groups</span><span class="font-body-md text-body-md">الفريق والاستراتيجية</span>
+    </a>
+    <a class="flex items-center gap-4 text-on-surface-variant opacity-70 hover:opacity-100 px-6 py-4 transition-all hover:bg-primary/5 hover:text-primary" href="#">
+      <span class="material-symbols-outlined">gavel</span><span class="font-body-md text-body-md">الإطار القانوني</span>
+    </a>
+    <a class="flex items-center gap-4 text-on-surface-variant opacity-70 hover:opacity-100 px-6 py-4 transition-all hover:bg-primary/5 hover:text-primary" href="#">
+      <span class="material-symbols-outlined">policy</span><span class="font-body-md text-body-md">استراتيجية الملكية</span>
+    </a>
+    <a class="flex items-center gap-4 text-on-surface-variant opacity-70 hover:opacity-100 px-6 py-4 transition-all hover:bg-primary/5 hover:text-primary" href="#">
+      <span class="material-symbols-outlined">account_balance_wallet</span><span class="font-body-md text-body-md">نموذج الأعمال</span>
+    </a>
+    <a class="flex items-center gap-4 text-on-surface-variant opacity-70 hover:opacity-100 px-6 py-4 transition-all hover:bg-primary/5 hover:text-primary" href="#">
+      <span class="material-symbols-outlined">hub</span><span class="font-body-md text-body-md">السيادة التقنية</span>
+    </a>
+  </nav>
+  <div class="mt-auto p-md border-t border-outline-variant/10">
+    <button class="w-full brushed-metal text-on-surface-variant font-body-md text-body-md py-3 rounded-lg flex items-center justify-center gap-2 mb-md hover:text-primary transition-all border border-outline-variant/20">
+      <span class="material-symbols-outlined">key</span><span>وصول آمن</span>
+    </button>
+    <div class="flex justify-between px-2">
+      <button class="flex items-center gap-2 text-on-surface-variant opacity-70 hover:opacity-100 text-label-caps font-label-caps">
+        <span class="material-symbols-outlined text-sm">settings</span> Settings
+      </button>
+      <button class="flex items-center gap-2 text-on-surface-variant opacity-70 hover:opacity-100 text-label-caps font-label-caps">
+        <span class="material-symbols-outlined text-sm">language</span> Language
+      </button>
+    </div>
+  </div>
+</aside>
+<main class="mr-72 p-lg min-h-screen">
+  <section class="mb-xl">
+    <div class="flex items-center justify-between mb-lg">
+      <div>
+        <h2 class="font-display-lg text-display-lg text-glow mb-2">الأهداف الاستراتيجية v2.0</h2>
+        <p class="text-on-surface-variant font-body-md">خارطة الطريق التشغيلية للسيادة الرقمية</p>
+      </div>
+      <div class="px-4 py-2 rounded-lg glass-panel border border-primary/20 text-primary font-bold">المرحلة الحالية: التأسيس</div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-md">
+      <div class="glass-panel p-lg rounded-xl border border-outline-variant/10 relative overflow-hidden group">
+        <div class="absolute top-0 left-0 w-2 h-full bg-primary/40 group-hover:bg-primary transition-all"></div>
+        <div class="flex items-start gap-md">
+          <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+            <span class="material-symbols-outlined text-3xl">group_add</span>
+          </div>
+          <div>
+            <h3 class="font-headline-md text-headline-md mb-2">تكوين الفريق الأساسي</h3>
+            <p class="text-on-surface-variant font-body-md leading-relaxed mb-6">الجدول الزمني: 8 أسابيع. استقطاب الكفاءات الوطنية المتخصصة في أمن المعلومات، هندسة البرمجيات، والذكاء الاصطناعي السيادي لبناء النواة الفنية للنظام.</p>
+            <div class="flex items-center gap-base">
+              <div class="h-1.5 flex-1 bg-surface-container-highest rounded-full overflow-hidden"><div class="h-full bg-primary w-1/4"></div></div>
+              <span class="text-label-caps font-label-caps text-primary">أسبوع 2/8</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="glass-panel p-lg rounded-xl border border-outline-variant/10 relative overflow-hidden group">
+        <div class="absolute top-0 left-0 w-2 h-full bg-secondary/40 group-hover:bg-primary-container transition-all"></div>
+        <div class="flex items-start gap-md">
+          <div class="w-14 h-14 rounded-full bg-primary-container/10 flex items-center justify-center text-primary-container">
+            <span class="material-symbols-outlined text-3xl">description</span>
+          </div>
+          <div>
+            <h3 class="font-headline-md text-headline-md mb-2">أول تعاقد حكومي</h3>
+            <p class="text-on-surface-variant font-body-md leading-relaxed mb-6">الهدف: الشهر السادس. تفعيل أول شراكة استراتيجية لتشغيل سردال OS كبنية تحتية لإحدى الوزارات السيادية، مما يضمن تدفق البيانات محلياً بشكل كامل.</p>
+            <div class="flex items-center gap-base">
+              <div class="h-1.5 flex-1 bg-surface-container-highest rounded-full overflow-hidden"><div class="h-full bg-primary-container w-[10%]"></div></div>
+              <span class="text-label-caps font-label-caps text-on-surface-variant">مخطط له</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-md mb-xl">
+    <div class="md:col-span-8 glass-panel rounded-xl p-md border border-outline-variant/10 relative group overflow-hidden">
+      <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-30 transition-opacity"><span class="material-symbols-outlined text-8xl">gavel</span></div>
+      <div class="relative z-10">
+        <div class="text-primary font-label-caps text-label-caps mb-2">النطاق التشريعي</div>
+        <h3 class="font-headline-md text-headline-md mb-4">الإطار القانوني للسيادة</h3>
+        <p class="font-body-md text-body-md text-on-surface-variant max-w-xl">صياغة التشريعات الرقمية التي تضمن خصوصية البيانات الوطنية وحمايتها من التدخلات الخارجية، مع توفير بيئة قانونية مرنة للابتكار التكنولوجي المحلي.</p>
+        <div class="mt-8 flex gap-base">
+          <div class="h-1 flex-1 bg-primary/20 rounded-full overflow-hidden"><div class="h-full bg-primary w-3/4"></div></div>
+          <span class="text-label-caps font-label-caps text-primary">75% مكتمل</span>
+        </div>
+      </div>
+    </div>
+    <div class="md:col-span-4 brushed-metal rounded-xl p-md border border-outline-variant/20 flex flex-col justify-between">
+      <div>
+        <div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-4 border border-outline-variant/10">
+          <span class="material-symbols-outlined text-primary" style="font-variation-settings:'FILL' 1;">hub</span>
+        </div>
+        <h3 class="font-headline-md text-headline-md mb-2">السيادة التقنية</h3>
+        <p class="font-body-md text-body-md text-on-surface-variant">تطوير بنية تحتية مستقلة تعتمد على الحلول المحلية مفتوحة المصدر.</p>
+      </div>
+      <div class="mt-6">
+        <div class="flex -space-x-2 space-x-reverse mb-4">
+          <div class="w-8 h-8 rounded-full border-2 border-surface-container-low bg-primary-container"></div>
+          <div class="w-8 h-8 rounded-full border-2 border-surface-container-low bg-secondary-container"></div>
+          <div class="w-8 h-8 rounded-full border-2 border-surface-container-low bg-surface-variant flex items-center justify-center text-[10px]">+12</div>
+        </div>
+        <button class="text-primary font-body-md text-body-md flex items-center gap-2 hover:translate-x-[-4px] transition-transform">التفاصيل الفنية <span class="material-symbols-outlined rotate-180">arrow_forward</span></button>
+      </div>
+    </div>
+    <div class="md:col-span-4 glass-panel rounded-xl p-md border border-outline-variant/10">
+      <h3 class="font-title-sm text-title-sm mb-4 flex items-center gap-2">
+        <span class="material-symbols-outlined text-primary">account_balance_wallet</span> نموذج الأعمال
+      </h3>
+      <div class="space-y-4">
+        <div class="flex items-center justify-between p-3 rounded-lg bg-surface-container-high/50 border border-outline-variant/10">
+          <span class="font-body-md text-body-md">الاستثمار الحكومي</span>
+          <span class="font-label-caps text-label-caps text-primary">مستقر</span>
+        </div>
+        <div class="flex items-center justify-between p-3 rounded-lg bg-surface-container-high/50 border border-outline-variant/10">
+          <span class="font-body-md text-body-md">عائدات السيادة</span>
+          <span class="font-label-caps text-label-caps text-primary">+12.4%</span>
+        </div>
+      </div>
+    </div>
+    <div class="md:col-span-8 glass-panel rounded-xl p-md border border-outline-variant/10 flex items-center gap-md">
+      <div class="hidden lg:block w-32 h-32 rounded-full border-4 border-dashed border-outline-variant/30 p-2">
+        <img alt="Strategy Visual" class="w-full h-full object-cover rounded-full opacity-60" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtpAbkcdCnDwyAIFNdDz72FTsW-TpENXcOHYofUlrHxAUBrGyA84T8YQhjNSvxpULAHC97LJEHgtdYM2SGs-zPiTS6R8xITZJg8unUmSJuqM6PvFKY8DaDqYbKpS_06hqeeJB0rnB5Z6bmFg4f3kDFXwAb0zqrB67x8rlGeEzpdJ83J3lrvulnNiM6aaxJcVuVwf56Re7kRgyLHNrsack47ifT6KW6B6ZcvyKs3sTGMHSdUv95-gtSGWbCNEAlETMVrD52FVsQ7CJW"/>
+      </div>
+      <div>
+        <h3 class="font-headline-md text-headline-md mb-2">استراتيجية الملكية الفكرية</h3>
+        <p class="font-body-md text-body-md text-on-surface-variant">حماية الابتكار المحلي عبر سجل سيادي يضمن حقوق المبدعين والباحثين في النظام البيئي.</p>
+        <div class="flex gap-sm mt-4">
+          <span class="px-3 py-1 rounded bg-secondary-container text-on-secondary-container font-label-caps text-label-caps">براءات اختراع</span>
+          <span class="px-3 py-1 rounded bg-secondary-container text-on-secondary-container font-label-caps text-label-caps">برمجيات وطنية</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="grid grid-cols-1 lg:grid-cols-3 gap-md">
+    <div class="lg:col-span-2 glass-panel rounded-xl p-md border border-outline-variant/10">
+      <div class="flex items-center justify-between mb-8">
+        <h3 class="font-headline-md text-headline-md">تحليل الأداء السيادي</h3>
+        <div class="flex gap-2">
+          <button class="p-2 rounded bg-surface-container-high border border-outline-variant/20"><span class="material-symbols-outlined text-sm">refresh</span></button>
+          <button class="p-2 rounded bg-surface-container-high border border-outline-variant/20"><span class="material-symbols-outlined text-sm">download</span></button>
+        </div>
+      </div>
+      <div class="h-64 flex items-end gap-2 px-2 pb-2">
+        <div class="flex-1 bg-primary/20 rounded-t h-1/2 hover:bg-primary/40 transition-all cursor-pointer"></div>
+        <div class="flex-1 bg-primary/20 rounded-t h-2/3 hover:bg-primary/40 transition-all cursor-pointer"></div>
+        <div class="flex-1 bg-primary/20 rounded-t h-3/4 hover:bg-primary/40 transition-all cursor-pointer"></div>
+        <div class="flex-1 bg-primary/20 rounded-t h-1/2 hover:bg-primary/40 transition-all cursor-pointer"></div>
+        <div class="flex-1 bg-primary rounded-t h-5/6 hover:bg-primary transition-all cursor-pointer shadow-[0_0_20px_rgba(138,191,234,0.3)]"></div>
+        <div class="flex-1 bg-primary/20 rounded-t h-2/3 hover:bg-primary/40 transition-all cursor-pointer"></div>
+        <div class="flex-1 bg-primary/20 rounded-t h-1/2 hover:bg-primary/40 transition-all cursor-pointer"></div>
+      </div>
+      <div class="flex justify-between mt-4 text-label-caps font-label-caps text-on-surface-variant">
+        <span>يناير</span><span>مارس</span><span>مايو</span><span>يوليو</span><span>سبتمبر</span><span>نوفمبر</span>
+      </div>
+    </div>
+    <div class="space-y-md">
+      <div class="glass-panel rounded-xl p-md border border-outline-variant/10 border-r-4 border-r-primary">
+        <div class="flex justify-between items-start mb-2">
+          <div class="font-label-caps text-label-caps text-primary">حالة الاتصال</div>
+          <span class="material-symbols-outlined text-primary">cloud_done</span>
+        </div>
+        <div class="text-3xl font-bold font-headline-md">مشفر بالكامل</div>
+        <div class="text-on-surface-variant font-body-md text-body-md mt-1">بروتوكول موديلو-19 نشط</div>
+      </div>
+      <div class="brushed-metal rounded-xl p-md border border-outline-variant/10">
+        <div class="flex justify-between items-start mb-4">
+          <div class="font-label-caps text-label-caps">مستوى التهديد</div>
+          <span class="w-3 h-3 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.6)]"></span>
+        </div>
+        <div class="flex items-center gap-4">
+          <div class="flex-1">
+            <div class="text-2xl font-bold">منخفض</div>
+            <div class="text-on-surface-variant font-body-md text-body-md">لا يوجد تهديدات نشطة</div>
+          </div>
+          <div class="w-12 h-12 rounded-full border-4 border-surface-container-high flex items-center justify-center">
+            <span class="font-label-caps text-label-caps">0.0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<button class="fixed bottom-8 left-8 w-16 h-16 rounded-full brushed-metal border border-primary/40 text-primary shadow-2xl primary-glow flex items-center justify-center hover:scale-110 transition-transform group">
+  <span class="material-symbols-outlined text-3xl group-hover:rotate-12 transition-transform">support_agent</span>
+</button>
 </body>
 </html>
